@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = {"step_definitions"},
         plugin = {"pretty","summary","json:target/cucumber-reports/cucumber-html-reports/report.json",
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber-reports"},
-        snippets = CucumberOptions.SnippetType.CAMELCASE,
+        snippets = CucumberOptions.SnippetType.CAMELCASE
 
        // tags = "@iPhoneCheckout_test"
         //tags = " @dailyDeals_test"
@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
        // tags = "@findbooksStores_test"
        // tags = "@careers_test"
       // tags = "@filtering_test"
-        tags = "@productRemoved_test"
+       // tags = "@productRemoved_test"
        // tags = " @policies_test"
        // tags = "@ukdomainprice_test"
        //tags = "@eBayratecard_test"
