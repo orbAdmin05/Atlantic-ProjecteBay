@@ -11,7 +11,8 @@ import org.junit.runner.RunWith;
         plugin = {"pretty","summary","json:target/cucumber-reports/cucumber-html-reports/report.json",
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber-reports"},
         snippets = CucumberOptions.SnippetType.CAMELCASE
-
+                
+                //For Execute individual test Scenario
        // tags = "@iPhoneCheckout_test"
         //tags = " @dailyDeals_test"
        // tags = "@camerasBrand_test"
