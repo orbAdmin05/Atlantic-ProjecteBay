@@ -64,7 +64,7 @@ Feature: eBay commercial website
       Given a user is on the ebay home page
       And user navigate to united kingdom's page
       When user add an item to the cart
-      Then user pay in euro instead of dollar which is "£14.06"
+      Then user pay in euro instead of dollar which is "£14.15"
 
   @eBayratecard_test
     Scenario: A user want to check global rate card
